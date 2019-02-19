@@ -1,8 +1,12 @@
-Package: usdanutrients
-Title: USDA nutrient data (release SR26)
+Package: usdanutrients28
+Title: USDA nutrient data (release 28)
 Version: 0.1
-Authors@R: 'Hadley Wickham <h.wickham@gmail.com> [aut,cre]'
-Description: Complete USDA nutrient database, release SR26.
+Authors@R: c(person("Zachary", "Foster", email =
+        "zacharyfoster1989@gmail.com", role = c("aut", "cre")),
+        person("Hadley", "Wickham", email =
+        "h.wickham@gmail.com", role = c("aut")))
+Maintainer: Zachary Foster <zacharyfoster1989@gmail.com>
+Description: Complete USDA nutrient database, release 28. Adapted from Hadly Wickhams' "usdanutrients" package that contained release 26.
 License: CC0
 LazyData: true
 Depends:
